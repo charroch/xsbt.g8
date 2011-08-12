@@ -1,11 +1,11 @@
 // set the name of the project
-name := "My Project"
+name := "$project_name$"
 
-version := "1.0"
+version := "$version$"
 
-organization := "org.myproject"
+organization := "$package$"
 
-scalaVersion := "2.9.0-1"
+scalaVersion := "$scala_version$"
 
 // // add a test dependency on ScalaCheck
 // libraryDependencies += "org.scala-tools.testing" %% "scalacheck" % "1.8" % "test"
